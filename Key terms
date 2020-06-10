@@ -1,4 +1,4 @@
-Key term
+Key Genome Assembly term
 
 Coverage - The number of reads covering a particular position in the genome.
 
@@ -16,4 +16,9 @@ Scaffolding – the process of ordering and orientating contigs. Preferred way i
 
 Read – The unit of DNA sequence that comes from a sequencing instrument. 
 
+Spanned gaps - Gaps that have linkage evidence (see NCBI AGP specification v2.1) also called within-scaffold gaps. 
+
+Sequence length - Total length of all top-level sequences i.e. the most highly assembled sequences in an assembly. 
+
+Ungapped length - Total length of all top-level sequences, Ignoring gaps. 10+ Ns in a sequence is treated like a gap, they occur due to ambiguous base calls.
 

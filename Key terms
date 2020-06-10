@@ -1,0 +1,19 @@
+Key term
+
+Coverage - The number of reads covering a particular position in the genome.
+
+Contig - Contiguous piece of DNA sequence that have been assembled from more than one read.
+
+N50 – the minimum contig length needed to cover 50% of the genome (A length weighted median that gives a more robust quality value than a simple median).
+
+N10 – the minimum contig length needed to cover 10% of the genome. 
+
+N90 – the minimum contig length needed to cover 90% of the genome. 
+
+ORF - Open Reading Frame is a stretch of amino acids with no stop codon.
+
+Scaffolding – the process of ordering and orientating contigs. Preferred way is based on assembling reads into contigs then using paired-end information to join them into scaffolds. 
+
+Read – The unit of DNA sequence that comes from a sequencing instrument. 
+
+

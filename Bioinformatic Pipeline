@@ -1,0 +1,16 @@
+De novo genome assembly for the naked mole-rat
+
+A.	Download HetGla_female_1.0 & HetGla_1.0 naked mole-rat Illumina reads from the NCBI website: (https://www.ncbi.nlm.nih.gov/assembly/?term=naked+mole-rat).
+
+B.	Examine the quality of the raw reads using the software programme FastQC with in a Linux terminal.
+
+C.	Trim poor quality Illumina reads/adapters by using the programme Trimmomatic with in the Linux terminal.
+            (Note: Use the output files from the Trimmomatic tool for the next steps).
+
+D.	Download and compile the ‘ABySS’, ‘Velvet’ and ‘SPAdes’ genome assembler(s) in the Linux terminal
+
+E.	Assemble raw NMR sequencing reads into a draft genome assembly using each of the assemblers. Use the tool SSPACE to control the scaffolding process. SAM tools can be used for manipulating alignments in the SAM format.
+
+F.	Examine the contiguity statists of the ‘new’ genome assemblies use tool SAMStat and compare them to the HetGla_female_1.0 (Keane et al, 2014) to see if real improvements have been made.
+
+G.	Perform QUAST evaluation(s) of the new genomes to gauge the best and worst assemblies.
